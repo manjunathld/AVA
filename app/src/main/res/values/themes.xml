@@ -1,0 +1,90 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AVA" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/purple_solid</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/purple_solid</item>
+        <!-- Window background color. -->
+        <item name="android:windowBackground">@color/purple_solid</item>
+    </style>
+    
+    <!-- Generic views style -->
+    <style name="LayoutViewAVA" parent="Theme.AVA">
+    </style>
+
+    <style name="TextViewAVA" parent="Theme.AVA">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="EditText" parent="Theme.AVA">
+    </style>
+
+    <style name="ButtonAVA" parent="Theme.AVA">
+    </style>
+
+    <!-- Specific view style -->
+    <!--Splash Screen Start-->
+    <style name="TextAppNameSplashScreen" parent="TextViewAVA">
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/google_spies</item>
+    </style>
+    <style name="TextVersionSplashScreen" parent="TextViewAVA">
+        <item name="android:text">@string/version_1_0_0</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFamily">@font/ubuntu_regular</item>
+    </style>
+    <style name="TextLabelTitleSplashScreen" parent="TextViewAVA">
+        <item name="android:text">@string/from</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/ubuntu_regular</item>
+    </style>
+    <style name="TextLabelContentSplashScreen" parent="TextViewAVA">
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:text">@string/ldsoftwares_pvt_ltd</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/racing_sans</item>
+    </style>
+    <!--Splash Screen End-->
+
+    <!--Welcome Screen Two Start-->
+    <style name="WelcomeScreenLayout" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <!--Welcome Screen Two End-->
+
+    <!--OnBoarding Screen One Start-->
+    <style name="OnBoardingScreenOneLayout" parent="WelcomeScreenLayout">
+    </style>
+    <!--OnBoarding Screen one End-->
+
+    <!--OnBoarding Screen Two Start-->
+    <style name="OnBoardingScreenTwoLayout" parent="WelcomeScreenLayout">
+    </style>
+    <!--OnBoarding Screen Two End-->
+
+    <!--OnBoarding Screen Three Start-->
+    <style name="OnBoardingScreenThreeLayout" parent="WelcomeScreenLayout">
+    </style>
+    <!--OnBoarding Screen Three End-->
+
+</resources>
